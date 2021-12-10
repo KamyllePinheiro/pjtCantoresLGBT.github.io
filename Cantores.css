@@ -1,0 +1,77 @@
+body {
+    background-color: lavender;
+}
+
+.cabecalho{
+    background-color: rgb(220, 100, 150);
+    top: 30px;
+    padding: 20px;
+}
+
+.titulo_nav{
+    position: relative ;
+    width: auto;
+    margin: 0 auto;
+}
+
+h1{
+    position: relative;
+    margin: auto;
+}
+
+.menu{
+    position: absolute;
+    top: 80px;
+    right: 10px;
+
+}
+
+.item_menu{
+    display: inline;
+    margin-left: 20px;
+}
+
+.linkMenu{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+.linkMenu:hover{
+    text-decoration: underline;
+}
+
+h2{
+    background-color: white;
+    font-size: large;
+    padding: 5px;
+    text-align: center;
+}
+
+.cantores li {
+    display: inline-block;
+    padding: auto;
+    margin-top: 50px;
+    margin-left: 100px;
+    vertical-align: top;
+    border-color: rgb(210, 110, 200);
+    border-width: 3px;
+    border-style:dashed ;
+}
+
+.img{
+    height: 200px;
+}
+
+.rodape{
+    background-color: rgb(220, 100, 150);
+    color: white;
+    font-size: 15px;
+    height: 20px;
+    text-align: center;
+    padding-top: 10px;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+}

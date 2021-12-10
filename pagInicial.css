@@ -1,0 +1,109 @@
+body{
+    background-color: lavender;
+}
+
+.cabecalho{
+    background-color: lightblue;
+    top: 30px;
+    padding: 20px;
+}
+
+.cabecalho img{
+    margin-left: 10%;
+}
+
+.cabecalho h1{
+    color: rgb(220, 100, 150);
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+    bottom: 0px;
+    width: 100%;
+    position: relative;
+}
+
+.menu{
+    position: absolute;
+    top: 80px;
+    right: 10px;
+
+}
+
+.item_menu{
+    display: inline;
+    margin-left: 20px;
+}
+
+.linkMenu{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+.linkMenu:hover{
+    color: lavender;
+    text-decoration: underline;
+}
+
+.projetos{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.projetos li{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    padding: 50px 20px;
+    border-color: rgb(210, 110, 200);
+    border-width: 5px;
+    border-style: double;
+    border-radius: 15px;
+}
+
+.projetos li:hover{
+    border-color: black;
+}
+
+.projetos li:hover h2{
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.projetos h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0 ;
+    background-color: lightblue;
+}
+
+.projetos p{
+    text-align: center;
+    width: 200px;
+    padding: 5px 0;
+}
+
+
+.projetos img{
+    width: 200px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .titulo_nav{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+    
+    .menu{
+        position: static;
+        text-align: center;
+    }
+}

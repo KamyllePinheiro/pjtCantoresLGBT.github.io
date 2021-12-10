@@ -1,0 +1,64 @@
+body{
+    background-color: lavender;
+}
+
+.cabecalho{
+    background-color: rgb(220, 100, 150);
+    top: 30px;
+    padding: 20px;
+}
+
+.titulo_nav{
+    position: relative ;
+    margin: 0 auto;
+}
+
+.menu{
+    position: absolute;
+    top: 80px;
+    left: 40%;
+}
+
+.item_menu{
+    display: inline;
+    margin-left: 20px;
+}
+
+.linkMenu{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+.linkMenu:hover{
+    color: lavender;
+    text-decoration: underline;
+}
+
+.rodape{
+    background-color: rgb(220, 100, 150);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    bottom: 0px;
+    width: 100%;
+    position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+    .titulo_nav{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+    
+    .menu{
+        position: static;
+        text-align: center;
+    }
+}

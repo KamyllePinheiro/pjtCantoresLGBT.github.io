@@ -1,0 +1,112 @@
+body{
+    background-color: lavender;
+}
+
+.cabecalho{
+    background-color: rgb(220, 100, 150);
+    top: 30px;
+    padding: 20px;
+}
+
+.titulo_nav{
+    position: relative ;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.menu{
+    position: absolute;
+    top: 80px;
+    right: 10px;
+
+}
+
+.item_menu{
+    display: inline;
+    margin-left: 20px;
+}
+
+.linkMenu{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+.linkMenu:hover{
+    color: lavender;
+    text-decoration: underline;
+}
+
+.cantores{
+    width: 940px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.cantores li{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    padding: 50px 20px;
+    border-color: rgb(210, 110, 200);
+    border-width: 5px;
+    border-style: double;
+    border-radius: 15px;
+}
+
+.cantores li:hover{
+    border-color: black;
+}
+
+.cantores li:hover h2{
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.cantores h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0 ;
+}
+
+.cantores p{
+    text-align: start;
+    width: 200px;
+    padding: 5px 0;
+}
+
+.cantores img{
+    width: 200px;
+    height: 200px;
+}
+
+.rodape{
+    background-color: rgb(220, 100, 150);
+    color: white;
+    font-size: 15px;
+    height: 20px;
+    text-align: center;
+    padding-top: 10px;
+    bottom: 0px;
+    width: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .titulo_nav{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+    
+    .menu{
+        position: static;
+        text-align: center;
+    }
+}

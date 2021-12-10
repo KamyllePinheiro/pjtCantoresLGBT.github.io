@@ -1,0 +1,44 @@
+.titulos{
+    background-color: lightpink ;
+    top: 30px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img{
+    position: relative ;
+    width: 450px;
+    margin: 20px 400px;
+}
+
+body{
+    background-color: lavender;
+}
+
+.rodape{
+    background-color: rgb(220, 100, 150);
+    color: white;
+    font-size: 15px;
+    height: 20px;
+    text-align: center;
+    padding-top: 10px;
+    bottom: 0px;
+    width: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .titulo_nav{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+    
+    .menu{
+        position: static;
+        text-align: center;
+    }
+}
